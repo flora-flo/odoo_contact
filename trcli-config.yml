@@ -1,0 +1,7 @@
+host: https://healio.testrail.io/
+project: ModuleContactOdoo
+username: talyfloramarie-dominique.doua@esprit.tn
+password: Moifloradoua0.
+title: "Tests du module Contacter Odoo."
+auto_create_cases: true
+auto_create_sections: true
