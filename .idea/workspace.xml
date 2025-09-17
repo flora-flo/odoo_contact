@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea6b71d3-73f3-436b-a362-e02aa06febb3" name="Changes" comment="" />
+    <list default="true" id="ea6b71d3-73f3-436b-a362-e02aa06febb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestLoginFailure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_20250915_010851_01_login_page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_20250915_010851_02_email_entered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_20250915_010851_03_password_submitted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_20250915_010851_04_login_success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_20250915_010851_final_error_state.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestMultipleContactsCreation.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestMultipleContactsCreation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login_contacts.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_contacts.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +27,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -69,7 +83,8 @@
       <workItem from="1756143003025" duration="9638000" />
       <workItem from="1756551786119" duration="5131000" />
       <workItem from="1757377675202" duration="1088000" />
-      <workItem from="1757679942998" duration="5676000" />
+      <workItem from="1757679942998" duration="7698000" />
+      <workItem from="1758106545087" duration="4874000" />
     </task>
     <servers />
   </component>

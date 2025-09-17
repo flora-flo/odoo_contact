@@ -299,9 +299,10 @@ class TestMultipleContactsCreation(unittest.TestCase):
         self.driver.quit()
 
 
-# if __name__ == "__main__":
-#     unittest.main()
-    if __name__ == "__main__":
-        import xmlrunner
-
-        unittest.main(testRunner=xmlrunner.XMLTestRunner(output='reports'))
+if __name__ == "__main__":
+    import xmlrunner
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='reports'))
+#     if __name__ == "__main__":
+#         import xmlrunner
+#
+#         unittest.main(testRunner=xmlrunner.XMLTestRunner(output='reports'))
