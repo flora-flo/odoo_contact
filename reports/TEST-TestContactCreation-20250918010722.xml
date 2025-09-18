@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<testsuite name="TestContactCreation-20250918010722" tests="1" time="37.261" failures="0" errors="0">
+	<testcase classname="TestContactCreation" name="test_complete_flow" time="37.261"/>
+	<system-out><![CDATA[Screenshot sauvegardé : screenshot_20250918_010724_contact_lists.png
+Remplissage du champ name...
+ Échec avec input[placeholder='e.g. Brandon Freeman']: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[placeholder='e.g. Brandon Freeman']"}
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x105d2a3+66419]
+	GetHandleVerifier [0x0x105d2e4+66484]
+	(No symbol) [0x0xe34bd3]
+	(No symbol) [0x0xe7e958]
+	(No symbol) [0x0xe7ecfb]
+	(No symbol) [0x0xec5152]
+	(No symbol) [0x0xea1064]
+	(No symbol) [0x0xec28a1]
+	(No symbol) [0x0xea0e16]
+	(No symbol) [0x0xe725ce]
+	(No symbol) [0x0xe734a4]
+	GetHandleVerifier [0x0x12a5ee3+2461619]
+	GetHandleVerifier [0x0x12a0f66+2441270]
+	GetHandleVerifier [0x0x1086242+234258]
+	GetHandleVerifier [0x0x1076208+168664]
+	GetHandleVerifier [0x0x107d1ad+197245]
+	GetHandleVerifier [0x0x10655f8+100040]
+	GetHandleVerifier [0x0x1065792+100450]
+	GetHandleVerifier [0x0x104f74a+10266]
+	BaseThreadInitThunk [0x0x76147ba9+25]
+	RtlInitializeExceptionChain [0x0x7719c3ab+107]
+	RtlClearBits [0x0x7719c32f+191]
+
+ Échec avec input[placeholder*='Brandon Freeman']: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[placeholder*='Brandon Freeman']"}
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x105d2a3+66419]
+	GetHandleVerifier [0x0x105d2e4+66484]
+	(No symbol) [0x0xe34bd3]
+	(No symbol) [0x0xe7e958]
+	(No symbol) [0x0xe7ecfb]
+	(No symbol) [0x0xec5152]
+	(No symbol) [0x0xea1064]
+	(No symbol) [0x0xec28a1]
+	(No symbol) [0x0xea0e16]
+	(No symbol) [0x0xe725ce]
+	(No symbol) [0x0xe734a4]
+	GetHandleVerifier [0x0x12a5ee3+2461619]
+	GetHandleVerifier [0x0x12a0f66+2441270]
+	GetHandleVerifier [0x0x1086242+234258]
+	GetHandleVerifier [0x0x1076208+168664]
+	GetHandleVerifier [0x0x107d1ad+197245]
+	GetHandleVerifier [0x0x10655f8+100040]
+	GetHandleVerifier [0x0x1065792+100450]
+	GetHandleVerifier [0x0x104f74a+10266]
+	BaseThreadInitThunk [0x0x76147ba9+25]
+	RtlInitializeExceptionChain [0x0x7719c3ab+107]
+	RtlClearBits [0x0x7719c32f+191]
+
+ Échec avec input[id='o_field_input_200']: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[id='o_field_input_200']"}
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x105d2a3+66419]
+	GetHandleVerifier [0x0x105d2e4+66484]
+	(No symbol) [0x0xe34bd3]
+	(No symbol) [0x0xe7e958]
+	(No symbol) [0x0xe7ecfb]
+	(No symbol) [0x0xec5152]
+	(No symbol) [0x0xea1064]
+	(No symbol) [0x0xec28a1]
+	(No symbol) [0x0xea0e16]
+	(No symbol) [0x0xe725ce]
+	(No symbol) [0x0xe734a4]
+	GetHandleVerifier [0x0x12a5ee3+2461619]
+	GetHandleVerifier [0x0x12a0f66+2441270]
+	GetHandleVerifier [0x0x1086242+234258]
+	GetHandleVerifier [0x0x1076208+168664]
+	GetHandleVerifier [0x0x107d1ad+197245]
+	GetHandleVerifier [0x0x10655f8+100040]
+	GetHandleVerifier [0x0x1065792+100450]
+	GetHandleVerifier [0x0x104f74a+10266]
+	BaseThreadInitThunk [0x0x76147ba9+25]
+	RtlInitializeExceptionChain [0x0x7719c3ab+107]
+	RtlClearBits [0x0x7719c32f+191]
+
+ Échec avec input[id='o_field_input_281']: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[id='o_field_input_281']"}
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x105d2a3+66419]
+	GetHandleVerifier [0x0x105d2e4+66484]
+	(No symbol) [0x0xe34bd3]
+	(No symbol) [0x0xe7e958]
+	(No symbol) [0x0xe7ecfb]
+	(No symbol) [0x0xec5152]
+	(No symbol) [0x0xea1064]
+	(No symbol) [0x0xec28a1]
+	(No symbol) [0x0xea0e16]
+	(No symbol) [0x0xe725ce]
+	(No symbol) [0x0xe734a4]
+	GetHandleVerifier [0x0x12a5ee3+2461619]
+	GetHandleVerifier [0x0x12a0f66+2441270]
+	GetHandleVerifier [0x0x1086242+234258]
+	GetHandleVerifier [0x0x1076208+168664]
+	GetHandleVerifier [0x0x107d1ad+197245]
+	GetHandleVerifier [0x0x10655f8+100040]
+	GetHandleVerifier [0x0x1065792+100450]
+	GetHandleVerifier [0x0x104f74a+10266]
+	BaseThreadInitThunk [0x0x76147ba9+25]
+	RtlInitializeExceptionChain [0x0x7719c3ab+107]
+	RtlClearBits [0x0x7719c32f+191]
+
+ Nom rempli avec sélecteur: input.o_input[type='text']
+Rempli: input[name='phone'] = +216 52 369 827
+Rempli: input[name='mobile'] = +216 52 369 828
+Rempli: input[name='email'] = flohair@example.com
+Rempli: input[name='street'] = 123 Main St
+Rempli: input[name='street2'] = Suite 400
+Rempli: input[name='city'] = Tunis
+Rempli: input[name='zip'] = 1000
+Rempli: input[name='website'] = https://example.com
+Screenshot sauvegardé : screenshot_20250918_010724_submit_form.png
+Bouton Save cliqué
+Formulaire rempli avec succès - soumission assumée réussie
+Screenshot sauvegardé : screenshot_20250918_010724_soumission.png
+SUCCÈS: Contact 'Flora M' trouvé dans la liste
+Screenshot sauvegardé : screenshot_20250918_010724_new_contact.png
+SUCCES: Contact créé et vérifié dans la base de donnée
+]]></system-out>
+	<system-err><![CDATA[]]></system-err>
+</testsuite>

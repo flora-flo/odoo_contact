@@ -29,10 +29,8 @@ class TestOdooLogin(unittest.TestCase):
         print(f"Screenshot sauvegardé : {screenshot_name}")
 
     def test_login(self):
-        """Test basique de connexion"""
         # Étape 1: Page de login
         self.take_screenshot("01_login_page")
-
         email = os.getenv("ODOO_EMAIL")
         password = os.getenv("ODOO_PASSWORD")
 
@@ -40,7 +38,6 @@ class TestOdooLogin(unittest.TestCase):
         email_field = self.wait.until(EC.presence_of_element_located((By.NAME, "login")))
         email_field.send_keys(email)
         self.take_screenshot("02_email_entered")
-
         password_field = self.driver.find_element(By.NAME, "password")
         password_field.send_keys(password + Keys.RETURN)
         self.take_screenshot("03_password_submitted")
@@ -53,19 +50,13 @@ class TestOdooLogin(unittest.TestCase):
         except Exception as e:
             self.take_screenshot("error_final_state")
             raise
-
         # Pause finale pour visualisation
         time.sleep(10)  # 10 secondes avant fermeture
-
     def tearDown(self):
         if hasattr(self, '_outcome') and any(self._outcome.errors):
             self.take_screenshot("final_error_state")
         self.driver.quit()
 
-
-
-# if __name__ == "__main__":
-#     unittest.main()
 if __name__ == "__main__":
     import xmlrunner
     unittest.main(testRunner=xmlrunner.XMLTestRunner(output='reports'))

@@ -1,11 +1,7 @@
 <?xml version="1.0" ?>
-<testsuite name="TestMultipleContactsCreation-20250917143821" tests="1" time="314.125" failures="0" errors="0">
-	<testcase classname="TestMultipleContactsCreation" name="test_multiple_contacts_creation" time="314.125"/>
+<testsuite name="TestMultipleContactsCreation-20250918152916" tests="1" time="333.528" failures="0" errors="0">
+	<testcase classname="TestMultipleContactsCreation" name="test_multiple_contacts_creation" time="333.528"/>
 	<system-out><![CDATA[Recherche du fichier à: Contact.xlsx
-ERREUR: Fichier non trouvé à l'emplacement: Contact.xlsx
-Fichiers dans le dossier tests: ['Contact.xlsx', 'TestLoginFailure.py', 'TestMultipleContactsCreation.py', 'test_create_contact.py', 'test_login_contacts.py', '__pycache__']
-Fichiers Excel trouvés: ['Contact.xlsx']
-Utilisation du fichier: C:\Users\DOUA FLORA\odoo_contact\tests\Contact.xlsx
 Fichier Excel chargé: 3 contacts trouvés
 Colonnes disponibles: ['name', 'phone', 'email', 'company', 'street', 'city', 'zip']
 Aperçu des données:
@@ -13,7 +9,7 @@ Aperçu des données:
 0    Flora Doua  21652369827  flora@example.com  Company A  123 Main St   Tunis   1000
 1   Jean Dupont  33123456789   jean@example.com  Company B  456 Oak Ave   Paris  75000
 2  Maria Garcia  34987654321  maria@example.com  Company C  789 Pine Rd  Madrid  28000
-Nombre initial de contacts: 53
+Nombre initial de contacts: 48
 
 Création du contact 1: Flora Doua
 ✓ name rempli: Flora Doua
@@ -51,8 +47,8 @@ RÉCAPITULATIF DE CRÉATION
 Contacts à créer: 3
 Contacts créés avec succès: 3
 Contacts échoués: 0
-Contacts attendus en base: 56
-Contacts actuels en base: 56
+Contacts attendus en base: 51
+Contacts actuels en base: 51
 SUCCÈS: Tous les contacts créés avec succès
 ]]></system-out>
 	<system-err><![CDATA[]]></system-err>

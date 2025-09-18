@@ -2,6 +2,7 @@ import os
 import time
 import unittest
 from selenium import webdriver
+from datetime import datetime
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -25,6 +26,8 @@ class TestContactCreation(unittest.TestCase):
         self.service = ChromeService(ChromeDriverManager().install())
         self.driver = webdriver.Chrome(service=self.service, options=options)
         self.wait = WebDriverWait(self.driver, 15)
+        self.test_start_time = datetime.now().strftime("%Y%m%d_%H%M%S")
+
 
         self.contact_info = {
                      'name': "Brandon Freeman",
@@ -44,6 +47,12 @@ class TestContactCreation(unittest.TestCase):
                         'tax_id': "US123456789",
                         'notes': "Important client - prefers email communication"
                         }
+
+    def take_screenshot(self, name):
+        """Prend un screenshot avec nom timestampé"""
+        screenshot_name = f"screenshot_{self.test_start_time}_{name}.png"
+        self.driver.save_screenshot(screenshot_name)
+        print(f"Screenshot sauvegardé : {screenshot_name}")
     def login(self):
         """Login to Odoo with verification"""
         try:
@@ -155,7 +164,7 @@ class TestContactCreation(unittest.TestCase):
 
     def submit_contact_form(self):
 
-        """Soumission du formulaire - toujours considérée comme réussie"""
+        """Soumission du formulaire """
         try:
             # Essayer de trouver et cliquer sur le bouton Save
             try:
@@ -219,6 +228,7 @@ class TestContactCreation(unittest.TestCase):
             # 2. Navigate to Contacts
             self.assertTrue(self.navigate_to_contacts(),
                             "Navigation to contacts failed")
+            self.take_screenshot("contact_lists")
 
             # 3. Open creation form with retry
             for attempt in range(2):
@@ -227,18 +237,23 @@ class TestContactCreation(unittest.TestCase):
                 if attempt == 1:
                     self.assertTrue(False, "Form opening failed after retry")
                 time.sleep(6)
+                self.take_screenshot("form_contact")
+
 
             # 4. Fill and submit form
             self.assertTrue(self.fill_and_submit_form(),
                             "Form submission failed after retries")
+            self.take_screenshot("submit_form")
 
             # Étape 5: Soumission
             if not self.submit_contact_form():
                 raise Exception("Echec de la soumission")
+            self.take_screenshot("soumission")
 
             # Etape 6: verification
             if not self.verify_contact_in_database():
                 raise Exception("Contact inexistant")
+            self.take_screenshot("new_contact")
 
             print("SUCCES: Contact créé et vérifié dans la base de donnée")
             return True

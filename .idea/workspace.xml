@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea6b71d3-73f3-436b-a362-e02aa06febb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestLoginFailure.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot_20250915_010851_01_login_page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot_20250915_010851_02_email_entered.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot_20250915_010851_03_password_submitted.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot_20250915_010851_04_login_success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot_20250915_010851_final_error_state.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TEST-TestContactCreation-20250915011606.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TEST-TestMultipleContactsCreation-20250917143821.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TEST-TestOdooLogin-20250915010843.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TEST-TestOdooLogin-20250917131428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_20250917_143317_01_login_page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_20250917_143317_03_password_submitted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_20250917_143317_04_login_success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_20250917_143431_injection sql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_20250917_143459_login_page.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TestMultipleContactsCreation.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestMultipleContactsCreation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_create_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create_contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_login_contacts.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_contacts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +87,7 @@
       <workItem from="1756551786119" duration="5131000" />
       <workItem from="1757377675202" duration="1088000" />
       <workItem from="1757679942998" duration="7698000" />
-      <workItem from="1758106545087" duration="4874000" />
+      <workItem from="1758106545087" duration="19938000" />
     </task>
     <servers />
   </component>

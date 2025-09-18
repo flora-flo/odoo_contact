@@ -31,6 +31,8 @@ class TestMultipleContactsCreation(unittest.TestCase):
         # Charger les données Excel
         self.contacts_data = self.load_contacts_from_excel("Contact.xlsx")
 
+
+
     def load_contacts_from_excel(self, file_path=None):
         """Charger les contacts depuis un fichier Excel"""
         try:
@@ -302,7 +304,3 @@ class TestMultipleContactsCreation(unittest.TestCase):
 if __name__ == "__main__":
     import xmlrunner
     unittest.main(testRunner=xmlrunner.XMLTestRunner(output='reports'))
-#     if __name__ == "__main__":
-#         import xmlrunner
-#
-#         unittest.main(testRunner=xmlrunner.XMLTestRunner(output='reports'))
